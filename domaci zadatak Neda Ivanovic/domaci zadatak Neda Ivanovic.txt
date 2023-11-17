@@ -1,0 +1,19 @@
+*Opis domaćeg zadatka*
+
+Neda Ivanović 624/2020
+
+samoglasnika:6
+suglasnika:6
+
+4+8=12%6=0
+
+Zbog istog broja samoglasnika i suglasnika izabrala sam pin PB5 prikazan u Proteusu 8 Professional, zajedno sa STM32F103C6, diodom i otpornikom.
+
+U STM32CubeIDE je ispisan kod za pokretanje diode.
+
+Neda=4
+Ivanović=8
+
+Postoje dva brojaca i i j koji su postavljeni na 0. U while petlji odbrojava i dok ne dostigne broj 4, tada se dioda pali na 4 ms, a gasi na 8 ms i taj proces se ponavlja 4 puta.
+U drugoj while petlji odbrojava j dok ne dostigne broj 8, tada se dioda gasi na 4 ms, a pali na 8 ms i taj proces se ponavlja 8 puta i dioda ostaje upaljena na kraju.
+
